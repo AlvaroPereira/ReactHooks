@@ -18,6 +18,13 @@ export default () => {
   return (
     <>
       <div>
+          {name ? (
+              `Hello, ${name}`
+          ) : (
+              `Hello, Visitor`
+          )}
+      </div>
+      <div>
           <Link to="my-settings">My Settings</Link>
       </div>
       <div>
